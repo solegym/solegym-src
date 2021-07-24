@@ -42,22 +42,22 @@ topselling:
   subtitle : "higher, faster, stronger!"
   topsellingItem:
     # topselling item loop
-    - title : "jump ropes"
+    - title : "Jump ropes"
       image : "images/topselling/topselling-jump.png"
       content : "jump lose your weight"
       
     # topselling item loop
-    - title : "yoga mat"
+    - title : "Yoga mat"
       image : "images/topselling/topselling-mat.png"
       content : "yoga relieve your fatigue"
       
     # topselling item loop
-    - title : "yoga items"
+    - title : "Yoga items"
       image : "images/topselling/topselling-yoga.png"
       content : "yoga shape your personality"
       
     # topselling item loop
-    - title : "physical-trainning"
+    - title : "Physical-trainning"
       image : "images/topselling/topselling-physical.png"
       content : "strength make you stronger"
 
@@ -81,7 +81,7 @@ advantage:
 video:
   enable : true
   title : "How solegym ensure the fitness product's quality?"
-  content : "Watch the introduce video of solegym quality control department."
+  content : "Watch the introduction video of solegym quality control department."
   videoThumb : "images/video-thumb.jpg"
   videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
@@ -110,7 +110,7 @@ testimonial:
       image : "images/clients/client-2.jpg" # size 100px*100px
       designation : "Agent, Europe"
       content : "We bought fitness products for Solegym and we sell them, custmers revies were good. We look forward to more coopertaions in the futher."
-      rating : "three" # rating star, one to five
+      rating : "four" # rating star, one to five
       
     # testimonial item loop
     - name : "John Doe"
