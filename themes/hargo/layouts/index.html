@@ -8,7 +8,8 @@
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-5 col-md-6 order-2 order-md-1">
         <h1>{{ .title | markdownify }}</h1>
-        <p>{{ .content | markdownify }}</p>
+		<!-- jrg: change content font size to 4, 2021.07.24 -->
+        <p><font size=4>{{ .content | markdownify }}</font></p>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link }}" class="btn btn-primary mr-3">{{ .label }}</a>
@@ -54,7 +55,8 @@
       </div>
       <div class="col-md-6 col-lg-5">
         <h2>{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+		<!-- jrg: change content font size to 4, 2021.07.24 -->
+        <p><font size=4>{{ .content | markdownify }}</font></p>
       </div>
     </div>
   </div>
@@ -67,22 +69,23 @@
 {{ partial "cta.html" . }}
 {{ end }}
 
-<!-- material -->
-{{ if site.Data.homepage.material.enable }}
-{{ with site.Data.homepage.material }}
+<!-- topselling -->
+{{ if site.Data.homepage.topselling.enable }}
+{{ with site.Data.homepage.topselling }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mx-auto text-center">
         <h2>{{ .title | markdownify }}</h2>
-        <p>{{ .subtitle | markdownify }}</p>
+		<!-- jrg: change content font size to 4, 2021.07.24 -->
+        <p><font size=4>{{ .subtitle | markdownify }}</font></p>
       </div>
     </div>
     <div class="row">
-      {{ range .materialItem }}
+      {{ range .topsellingItem }}
       <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="card border-0 text-center">
-          <img src="{{ .image | absURL }}" alt="material" class="card-img-top border-0">
+          <img src="{{ .image | absURL }}" alt="topselling" class="card-img-top border-0">
           <div class="card-body">
             <h4>{{ .title | markdownify }}</h4>
             <p>{{ .content | markdownify }}</p>
@@ -95,7 +98,7 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /material -->
+<!-- /topselling -->
 
 <!-- advantage -->
 {{ if site.Data.homepage.advantage.enable }}

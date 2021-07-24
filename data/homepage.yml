@@ -20,7 +20,7 @@ about:
   enable : true
   title : "About Our Product"
   content : "During the past 10 years sales time, almost all customers are satisfied with our products and business(enthusiasm, quality, delivery, profession).
-  			Our aim is providing customers the best products and becoming the most reliable supplier with our customers."
+  			Our aim is to offer our customers the best products and make us the most reliable supplier for our customers."
   image : "images/about.png"
 
 
@@ -35,36 +35,36 @@ cta:
     label : "All Products"
     link : "products"
 
-######################## raw material #######################
-material:
+###jrg:2021.07.24, change to top selling show ##############
+topselling:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Selected high-quality source materials."
-  materialItem:
-    # material item loop
-    - title : "materials-example"
-      image : "images/material/material-1.png"
-      content : "materials introduct example 1"
+  title : "Top selling products show"
+  subtitle : "higher, faster, stronger!"
+  topsellingItem:
+    # topselling item loop
+    - title : "jump ropes"
+      image : "images/topselling/topselling-jump.png"
+      content : "jump lose your weight"
       
-    # material item loop
-    - title : "materials-example"
-      image : "images/material/material-2.png"
-      content : "materials introduct example 2"
+    # topselling item loop
+    - title : "yoga mat"
+      image : "images/topselling/topselling-mat.png"
+      content : "yoga relieve your fatigue"
       
-    # material item loop
-    - title : "materials-example"
-      image : "images/material/material-3.png"
-      content : "materials introduct example 3"
+    # topselling item loop
+    - title : "yoga items"
+      image : "images/topselling/topselling-yoga.png"
+      content : "yoga shape your personality"
       
-    # material item loop
-    - title : "materials-example"
-      image : "images/material/material-4.png"
-      content : "materials introduct example 4"
+    # topselling item loop
+    - title : "physical-trainning"
+      image : "images/topselling/topselling-physical.png"
+      content : "physical trainning make you stronger"
 
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Advantages Of Using <br> Our Product"
+  title : "Product Advantages"
   subtitle : "Solegym's products have many advantages"
   image : "images/advantage.png"
   advantageList:
@@ -80,8 +80,8 @@ advantage:
 ######################## Promo Video ##########################
 video:
   enable : true
-  title : "How To Use This Product?"
-  content : "Watch the online tutorial video for the first time."
+  title : "How solegym provide you high quality fitness"
+  content : "Watch the online introduce video of us."
   videoThumb : "images/video-thumb.jpg"
   videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
