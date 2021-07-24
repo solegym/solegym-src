@@ -59,7 +59,7 @@ topselling:
     # topselling item loop
     - title : "physical-trainning"
       image : "images/topselling/topselling-physical.png"
-      content : "physical trainning make you stronger"
+      content : "strength make you stronger"
 
 ########################### Advantage #########################
 advantage:
@@ -69,19 +69,19 @@ advantage:
   image : "images/advantage.png"
   advantageList:
     # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
+    - listItem : "Reliable quality"
+    - listItem : "Rich products"
+    - listItem : "Fast logistics"
+    - listItem : "Civilian price"
+    - listItem : "Trusted supplier"
+    - listItem : "Secure payment"
 
 
 ######################## Promo Video ##########################
 video:
   enable : true
-  title : "How solegym provide you high quality fitness"
-  content : "Watch the online introduce video of us."
+  title : "How solegym ensure the fitness product's quality?"
+  content : "Watch the introduce video of solegym quality control department."
   videoThumb : "images/video-thumb.jpg"
   videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
@@ -113,15 +113,15 @@ testimonial:
       rating : "three" # rating star, one to five
       
     # testimonial item loop
-    - name : "john Doe"
+    - name : "John Doe"
       image : "images/clients/client-3.jpg" # size 100px*100px
       designation : "Shop onwer, Malaysia"
       content : "Solegym's good are always so good and cheap that our shop stand out from many shops, and now people from other city alse come to buy from me."
       rating : "five" # rating star, one to five
       
     # testimonial item loop
-    - name : "Riya Ventila"
-      image : "images/clients/client-2.jpg" # size 100px*100px
+    - name : "Wang juan"
+      image : "images/clients/client-4.jpg" # size 100px*100px
       designation : "student, China"
       content : "I like fitness bought from solegym, they have high-quality so that I can play with my classmates. I'd like to buy more products from solegym."
       rating : "four" # rating star, one to five
