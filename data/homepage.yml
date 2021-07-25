@@ -79,7 +79,7 @@ advantage:
 
 ######################## Promo Video ##########################
 video:
-  enable : true
+  enable : false 
   title : "How solegym ensure the fitness product's quality?"
   content : "Watch the introduction video of solegym quality control department."
   videoThumb : "images/video-thumb.jpg"
